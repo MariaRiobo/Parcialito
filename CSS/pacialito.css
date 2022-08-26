@@ -1,0 +1,60 @@
+.Container {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(162, 113, 207, 0.691);
+    padding: 15px;
+    height: 650px;
+    
+
+}
+
+.Shrek{
+    background-color: rgba(122, 230, 194, 0.787);
+    margin: 15px;
+    padding: 15px;
+    width: 150px;
+    align-self: center;
+    order: 5;
+    
+}
+.Burro{
+    background-color: rgba(122, 230, 194, 0.787);
+    margin: 15px;
+    padding: 15px;
+    width: 150px;
+    align-self: center;
+    order: 3;
+    
+}
+.Fiona{
+    background-color: rgba(122, 230, 194, 0.787);
+    margin: 15px;
+    padding: 15px;
+    width: 150px;
+    order: 1;
+    
+}
+.Gato{
+    background-color: rgba(122, 230, 194, 0.787);
+    margin: 15px;
+    padding: 15px;
+    width: 150px;
+  
+    order: 2;
+    align-self: flex-end;
+    
+}
+.Pinocho{
+    background-color: rgba(122, 230, 194, 0.787);
+    margin: 15px;
+    padding: 15px;
+    width: 150px;
+    align-self: flex-start;
+    order: 4;
+    
+}
+.Img{
+    height: 100px;
+}
